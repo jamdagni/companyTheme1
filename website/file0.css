@@ -1,0 +1,304 @@
+body{
+  background:white;
+}
+
+.navbar{
+  background-color: #b0bbbf;
+}
+
+.navbar-brand{
+  margin-left: 50px;
+  font-size: 50px;
+
+  font-style:italic;
+  font-family:cursive;
+  font-weight: bold;
+  padding-bottom: 20px;
+  color: #e3e6eb;
+}
+
+#feather{
+  font-size: 100px;
+  margin-top: 19px;
+}
+
+.navbar-brand:hover{
+  color: #ffffff;
+}
+
+.nav-link:hover{
+  color: black;
+}
+
+.nav-link:hover::before{
+  content: '';
+  display: block;
+  background: blue;
+  width: 130px;
+  height: 1.5px;
+  margin: 5px auto;
+}
+
+
+.collapse li{
+  margin-left: 90px;
+  padding-right: 5px;
+  font-size: 25px;
+  color: #f5f5f5;
+}
+
+.collapse a{
+  color: #ffffff;
+}
+
+#elli{
+  color: white;
+  font-size: 50px;
+}
+
+
+
+/* carousel*/
+
+.carousel-caption{
+  top: 50%;
+  bottom: initial!important;
+}
+
+.carousel-caption h5{
+  font-size: 30px;
+  font-style: italic;
+}
+
+/*about*/
+
+.container{
+  text-align: center;
+}
+
+.aboutus .container{
+  background: white;
+  border: 1.5px solid black;
+  padding: 50px;
+  border: 2px solid black;
+}
+
+.progress{
+  margin-left: 40px;
+  border-radius: 25px;
+
+}
+
+/*Our Services*/
+
+.ourservices{
+  text-align: center;
+  margin:50px 0 30px 0;
+}
+
+.parallax-window {
+    background: transparent;
+}
+
+.ourservices h3{
+  z-index: 2;
+  position: relative;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.ourservices h3::after{
+  content: '';
+  background: white;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto;
+}
+
+#onecol{
+  z-index: 2;
+  color: white;
+
+}
+
+#twocol{
+  z-index: 2;
+  color: white;
+}
+
+.ourservices i{
+  font-size: 30px;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 30px;
+}
+
+.ourservices .col:hover{
+  cursor: pointer;
+  background-color: #8d99ae;
+  transition: 1s;
+}
+
+/* Team member */
+
+.ourteam img{
+  height:180px;
+  width: 180px;
+  border-radius: 80px;
+  filter: grayscale(0.5);
+}
+
+.ourteam{
+  background-color: #edf2f4;
+}
+
+.ourteam h1{
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.ourteam h1::after{
+  content: '';
+  background: blue;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto;
+}
+
+.social{
+  padding: 10px;
+  margin-top:5px;
+  /*transform: translateY(-500%);*/
+}
+.social .fab{
+  color: grey;
+  padding: 10px;
+}
+
+
+
+/* promo */
+
+.promo img{
+  width: 100%;
+  height: 400px;
+}
+
+.promo{
+  text-align: center;
+  padding-top: 20px;
+  background-color:#edf2f4 ;
+}
+
+.promo .content{
+  transform:translateY(-200%);
+  color: white;
+}
+
+/*price paln*/
+
+.priceplan {
+  text-align: center;
+  /*transform:translateY(-200%);*/
+}
+
+.priceplan h2::after{
+  content: '';
+  display: block;
+  background: blue;
+  width: 160px;
+  height: 3px;
+  margin: 20px auto;
+}
+
+.headbox{
+  padding-bottom: 10px;
+  background-color: #48bfe3;
+}
+.priceplan {
+  text-align: center;
+  transform: translateY(-40px);
+  background: #edf2f4;
+  padding-bottom: 30px;
+}
+
+.priceplan .container{
+  padding: 0px 0 0px 0;
+  background: #f0efeb;
+}
+
+.priceplan ul{
+  list-style: none;
+}
+
+.priceplan .lists{
+  background: #e9ecef;
+  padding: 30px 10px 10px 0;
+  height: 400px;
+}
+
+.priceplan span{
+  font-size: 15px;
+  font-style: italic;
+}
+
+.priceplan i{
+  float: left;
+}
+
+.lists .fas{
+  color: green;
+}
+
+#cross{
+  color:red;
+}
+
+/* get in Touch*/
+
+.getintouch{
+  margin: 10px;
+  background: #edf2f4;
+
+}
+
+#con2{
+  background: #e5e5e5;
+  border-radius: 50px;
+  margin: 100px;
+  margin-top: 50px;
+  float: right;
+  transform: translateX(300px);
+}
+
+.getintouch img{
+  width: 300px;
+  height: 300px;
+  border-radius: 90px;
+  margin:20px 0 20px 10px;
+  transform: translateX(-100px);
+}
+
+.form-group{
+  margin-left: 20px;
+}
+
+.getintouch h2{
+  margin-left: 20px;
+}
+
+/*Footer*/
+
+.footer{
+  height: 300px;
+  background: #333533;
+  color: white;
+  text-align: center;
+
+}
+.footer i{
+  color:red;
+}
